@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Communication Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="loader" aria-live="polite">
+        <div>
+            <span class="loader-mark"></span>
+            <p>Loading Data Communication</p>
+        </div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="network-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#home" class="brand">DataComm</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#topics" class="nav-link">Topics</a></li>
+                <li><a href="#models" class="nav-link">Models</a></li>
+                <li><a href="#security" class="nav-link">Security</a></li>
+                <li><a href="#telegraph" class="nav-link">Telegraph</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section reveal">
+            <div class="hero-content">
+                <div class="profile-card">
+                    <div class="profile-identity">
+                        <img src="images/oti.jpeg" alt="Portrait of student with network equipment" class="profile-photo">
+                        <h2>Clinton Oti-Boateng</h2>
+                        <p>PUIT/25120003</p>
+                    </div>
+                    <div>
+                        <p class="eyebrow">Data Communication Portfolio</p>
+                        <h1>Modern Data Communication Assignment</h1>
+                        <p class="short-bio">I am an IT student passionate about technology, networks, innovation, and using digital skills to solve real-world problems.</p>
+                        <p class="hero-copy">A guide to how data is created, transmitted, protected, and delivered through modern communication systems, from telegraph signals to networks, security, and global technologies.</p>
+                    </div>
+                </div>
+                <div class="signal-strip" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="quick-jumps" aria-label="Quick section links">
+                    <a href="#topics">Concepts</a>
+                    <a href="#models">Models</a>
+                    <a href="#security">Security</a>
+                    <a href="#telegraph">Telegraph</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#resources">Resources</a>
+                </div>
+                <div class="stats-grid" aria-label="Assignment overview">
+                    <div><strong data-count="13">0</strong><span>Topics</span></div>
+                    <div><strong data-count="7">0</strong><span>OSI Layers</span></div>
+                    <div><strong data-count="4">0</strong><span>TCP/IP Layers</span></div>
+                    <div><strong data-count="5">0</strong><span>Telegraph Images</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Expanded topics</p>
+                <h2>Important Areas in Data Communication</h2>
+            </div>
+            <label class="topic-search" for="topic-search">
+                <span>Search topics</span>
+                <input id="topic-search" type="search" placeholder="Type cryptography, satellite, OSI...">
+            </label>
+            <div class="study-panel" aria-label="Study table of contents">
+                <div>
+                    <p class="eyebrow">Study guide</p>
+                    <h3>Jump to a topic</h3>
+                </div>
+                <div class="toc-grid">
+                    <a href="#topics">Core Concepts</a>
+                    <a href="#models">OSI / TCP-IP</a>
+                    <a href="#security">Cryptography</a>
+                    <a href="#telegraph">Telegraph</a>
+                    <a href="#quiz">Quiz</a>
+                    <a href="#resources">Resources</a>
+                </div>
+            </div>
+            <p class="learned-progress" aria-live="polite">0 topics marked learned</p>
+            <div class="topic-grid">
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Network</span>
+                            <h3>Transmission Modes</h3>
+                            <p>Simplex, half-duplex, and full-duplex describe the direction of communication.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Transmission Modes</h3>
+                            <p>Simplex sends data one way only, such as a keyboard to a computer. Half-duplex allows both devices to communicate, but one at a time. Full-duplex allows both sides to send and receive together, like a phone call.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Signals</span>
+                            <h3>Analog and Digital Signals</h3>
+                            <p>Signals carry data through electrical, optical, or wireless patterns.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Analog and Digital Signals</h3>
+                            <p>Analog signals are continuous waves, like traditional radio. Digital signals use discrete values, usually binary 0s and 1s. Digital communication is easier to store, process, compress, encrypt, and correct when errors happen.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Performance</span>
+                            <h3>Bandwidth and Speed</h3>
+                            <p>Bandwidth affects how much data can pass through a channel.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Bandwidth and Speed</h3>
+                            <p>Bandwidth is the capacity of a communication channel, often measured in bits per second. Real speed also depends on distance, congestion, signal quality, hardware, and delay. More bandwidth usually improves performance.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Media</span>
+                            <h3>Transmission Media</h3>
+                            <p>Media are the physical or wireless paths that carry signals.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Transmission Media</h3>
+                            <p>Guided media include twisted pair, coaxial, and fiber optic cable. Unguided media include radio waves, microwave, infrared, Bluetooth, Wi-Fi, and satellite links. Each medium has different cost, range, speed, and reliability.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Reliability</span>
+                            <h3>Error Detection</h3>
+                            <p>Communication systems must detect mistakes in transmitted data.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Error Detection</h3>
+                            <p>Noise and interference can damage transmitted bits. Parity checks, checksums, and CRC help detect errors. If an error is found, the receiver can reject the data and request retransmission for accuracy.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Efficiency</span>
+                            <h3>Multiplexing</h3>
+                            <p>Multiplexing lets many signals share one communication channel.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Multiplexing</h3>
+                            <p>Multiplexing combines multiple data streams so they can travel through one medium. It may divide the channel by time, frequency, wavelength, or code. This makes communication more efficient and reduces cost.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card topic-card-wide" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">History</span>
+                            <h3>Evolution of Data Communication</h3>
+                            <p>Data communication developed from simple signals into global digital networks.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Evolution of Data Communication</h3>
+                            <p>Early communication used smoke signals, drums, letters, and messengers. The telegraph introduced electrical signals over long distances. Telephones added voice transmission, radio enabled wireless broadcasting, and computers created digital networking. Today, fiber optics, satellites, mobile networks, cloud systems, and the internet allow fast global communication.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="timeline">
+                <article>
+                    <span>1800s</span>
+                    <h3>Telegraph Era</h3>
+                    <p>Electrical pulses and Morse code made long-distance messaging faster than physical delivery.</p>
+                </article>
+                <article>
+                    <span>1900s</span>
+                    <h3>Telephone and Radio</h3>
+                    <p>Voice transmission and wireless broadcasting expanded communication beyond written messages.</p>
+                </article>
+                <article>
+                    <span>1960s-1990s</span>
+                    <h3>Computer Networks</h3>
+                    <p>Packet switching, ARPANET, Ethernet, and TCP/IP shaped modern digital networking.</p>
+                </article>
+                <article>
+                    <span>Today</span>
+                    <h3>Global Internet</h3>
+                    <p>Fiber optics, satellites, cloud systems, mobile networks, and encryption support global connectivity.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="topics" class="section reveal">
+            <div class="section-divider" aria-hidden="true"></div>
+            <div class="section-heading centered">
+                <p class="eyebrow">Core topics</p>
+                <h2>Data Communication Concepts</h2>
+                <p>Data communication is the exchange of digital or analog information between devices through wired or wireless media. It depends on signals, protocols, addressing, timing, and reliability.</p>
+            </div>
+            <div class="component-grid">
+                <article class="info-card">
+                    <span class="card-icon">S</span>
+                    <span class="card-number">01</span>
+                    <h3>Sender</h3>
+                    <p>The device that creates the message, such as a computer, phone, server, sensor, or telegraph key.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">M</span>
+                    <span class="card-number">02</span>
+                    <h3>Message</h3>
+                    <p>The data being transmitted. It can be text, images, sound, video, commands, or machine readings.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">W</span>
+                    <span class="card-number">03</span>
+                    <h3>Medium</h3>
+                    <p>The path used to carry the signal, including copper cables, fiber optics, radio waves, and satellites.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">R</span>
+                    <span class="card-number">04</span>
+                    <h3>Receiver</h3>
+                    <p>The device that accepts the signal, decodes it, checks it, and presents the message to the user or system.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">P</span>
+                    <span class="card-number">05</span>
+                    <h3>Protocol</h3>
+                    <p>The rules that control formatting, addressing, sequencing, error checking, and delivery confirmation.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">N</span>
+                    <span class="card-number">06</span>
+                    <h3>Noise</h3>
+                    <p>Unwanted interference that can distort a signal and cause errors, delay, or loss of information.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="models" class="section section-alt reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">OSI and TCP/IP</p>
+                <h2>Network Models Explained</h2>
+                <p>Network models organize communication into layers. Each layer has a specific job, making complex systems easier to design, understand, and troubleshoot.</p>
+            </div>
+            <div class="model-grid detailed-models">
+                <article class="model-card">
+                    <h3>OSI Model: 7 Layers</h3>
+                    <ol>
+                        <li><strong>Physical:</strong> Sends raw bits through cables, radio waves, connectors, and electrical or optical signals.</li>
+                        <li><strong>Data Link:</strong> Handles local delivery, MAC addresses, frames, and error detection on the same network.</li>
+                        <li><strong>Network:</strong> Routes packets between networks using logical addresses such as IP addresses.</li>
+                        <li><strong>Transport:</strong> Provides end-to-end delivery, segmentation, reliability, and flow control using TCP or UDP.</li>
+                        <li><strong>Session:</strong> Starts, manages, and ends communication sessions between applications.</li>
+                        <li><strong>Presentation:</strong> Converts data formats, compresses data, and supports encryption or decryption.</li>
+                        <li><strong>Application:</strong> Provides user-facing network services such as web browsing, email, file transfer, and DNS.</li>
+                    </ol>
+                </article>
+                <article class="model-card">
+                    <h3>TCP/IP Model: 4 Layers</h3>
+                    <ol>
+                        <li><strong>Network Access:</strong> Controls physical transmission and local network delivery through Ethernet, Wi-Fi, or other media.</li>
+                        <li><strong>Internet:</strong> Uses IP addressing and routing to move packets across different networks.</li>
+                        <li><strong>Transport:</strong> Uses TCP for reliable ordered delivery or UDP for faster connectionless delivery.</li>
+                        <li><strong>Application:</strong> Contains protocols such as HTTP, HTTPS, DNS, SMTP, FTP, and DHCP.</li>
+                    </ol>
+                    <p>The TCP/IP model is the practical model used by the internet. It focuses on real communication between devices and combines several OSI functions into fewer layers.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="security" class="section reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Security and satellites</p>
+                <h2>Modern Communication Topics</h2>
+            </div>
+            <div class="topic-grid">
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Security</span>
+                            <h3>Cryptography</h3>
+                            <p>Cryptography protects communication from unauthorized access and tampering.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Cryptography</h3>
+                            <p>Cryptography converts readable data into ciphertext so only authorized users can understand it. Encryption protects privacy, hashing checks whether data has changed, and digital signatures confirm the sender.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Privacy</span>
+                            <h3>Pretty Good Privacy</h3>
+                            <p>PGP is used to protect messages, files, and email communication.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Pretty Good Privacy</h3>
+                            <p>PGP uses public-key cryptography to secure communication. A sender encrypts data with the receiver's public key, and the receiver opens it with a private key.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Security</span>
+                            <h3>Secure Data Communication</h3>
+                            <p>Secure communication protects confidentiality, integrity, and availability.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Secure Data Communication</h3>
+                            <p>It uses encryption, authentication, firewalls, VPNs, access control, and secure protocols to keep data safe while it moves between devices.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic-card flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-face flip-card-front">
+                            <span class="flip-hint">Click to flip</span>
+                            <span class="topic-tag">Wireless</span>
+                            <h3>Satellite Communication</h3>
+                            <p>Satellites support wide-area communication across long distances.</p>
+                        </div>
+                        <div class="flip-card-face flip-card-back">
+                            <h3>Satellite Communication</h3>
+                            <p>Satellite communication sends signals from earth stations to satellites and back, supporting GPS, remote coverage, and internet access.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="telegraph" class="section section-alt reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Telegraph section</p>
+                <h2>How Telegraph Communication Works</h2>
+                <p>The telegraph used electrical pulses to send coded messages over long distances. It was one of the first data communication systems and laid the groundwork for modern networks.</p>
+            </div>
+            <div class="telegraph-layout">
+                <figure class="diagram-card">
+                    <img src="images/Telegraph_Morse Code Machine.jpeg" alt="Schematic diagram showing the operation of an electric telegraph line">
+                    <figcaption>Electric telegraph schematic showing the key, circuit, line, and receiver.</figcaption>
+                </figure>
+                <div class="explanation">
+                    <h3>From key press to message</h3>
+                    <p>A telegraph operator presses a key to close an electrical circuit. When the circuit closes, current flows through the telegraph line to a distant station. At the receiver, the current activates an electromagnet that produces clicks or marks.</p>
+                    <p>Short pulses represent dots and long pulses represent dashes. These dots and dashes form Morse code, which is translated into letters, words, and full messages.</p>
+                    <ul class="feature-list">
+                        <li>Telegraph key opens and closes the circuit.</li>
+                        <li>Electrical pulses travel through the wire.</li>
+                        <li>Morse code converts pulse patterns into readable messages.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="signal-gallery">
+                <figure class="diagram-card">
+                    <img src="images/download (1).jpg.jpeg" alt="Real telegraph key used to send Morse code signals">
+                    <figcaption>Real telegraph key used by an operator to open and close an electrical circuit.</figcaption>
+                </figure>
+                <figure class="diagram-card">
+                    <img src="images/telegrafo_.jpg.jpeg" alt="Morse electromagnetic telegraph apparatus">
+                    <figcaption>Morse electromagnetic telegraph apparatus used to receive coded electrical signals.</figcaption>
+                </figure>
+            </div>
+            <div class="video-wrap" aria-label="Embedded video about telegraph communication">
+                <video
+                    src="images/videoplayback.mp4"
+                    title="Telegraph video"
+                    autoplay
+                    muted
+                    playsinline
+                    loop
+                    preload="auto"
+                    controls>
+                    Your browser does not support embedded videos.
+                </video>
+            </div>
+        </section>
+
+        <section id="inspiration" class="section section-alt reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Inspiration section</p>
+                <h2>Motivation for a Technology Career</h2>
+            </div>
+            <p class="inspiration-text">
+                My motivation for a technology career comes from the power of connection, problem solving, and meaningful impact.
+                I want to build systems that make communication faster, safer, and more accessible for everyone. By studying data
+                communication, I am learning how networks, software, and security work together so I can turn ideas into dependable
+                solutions and support real-world problem solving.
+            </p>
+        </section>
+
+        <section id="quiz" class="section reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Knowledge check</p>
+                <h2>Quick Data Communication Quiz</h2>
+                <p>Check your grasp of key concepts in data communication with a fast, interactive review.</p>
+            </div>
+            <form class="quiz-card">
+                <fieldset>
+                    <legend>1. Which OSI layer is responsible for routing packets between networks?</legend>
+                    <label><input type="radio" name="q1" value="correct"> Network layer</label>
+                    <label><input type="radio" name="q1" value="wrong"> Session layer</label>
+                    <label><input type="radio" name="q1" value="wrong"> Data Link layer</label>
+                </fieldset>
+                <fieldset>
+                    <legend>2. Which TCP/IP layer handles IP addressing and packet routing?</legend>
+                    <label><input type="radio" name="q2" value="correct"> Internet layer</label>
+                    <label><input type="radio" name="q2" value="wrong"> Application layer</label>
+                    <label><input type="radio" name="q2" value="wrong"> Physical layer</label>
+                </fieldset>
+                <fieldset>
+                    <legend>3. What is the main purpose of cryptography in communication systems?</legend>
+                    <label><input type="radio" name="q3" value="correct"> Protecting confidentiality and integrity</label>
+                    <label><input type="radio" name="q3" value="wrong"> Increasing signal strength</label>
+                    <label><input type="radio" name="q3" value="wrong"> Reducing network latency</label>
+                </fieldset>
+                <button type="button" class="quiz-submit">Check Score</button>
+                <div class="quiz-scorebar" aria-hidden="true"><span></span></div>
+                <p class="quiz-result" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section id="glossary" class="section section-alt reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Glossary</p>
+                <h2>Key Terms</h2>
+            </div>
+            <div class="glossary-grid">
+                <article><h3>Protocol</h3><p>A rule set that controls how devices format, send, receive, and confirm data.</p></article>
+                <article><h3>Bandwidth</h3><p>The amount of data a communication channel can carry in a given time.</p></article>
+                <article><h3>Encryption</h3><p>The process of converting readable data into protected ciphertext.</p></article>
+                <article><h3>Packet</h3><p>A small unit of data sent across a network with addressing information.</p></article>
+                <article><h3>Latency</h3><p>The delay before data reaches its destination or a response returns.</p></article>
+                <article><h3>Modulation</h3><p>The process of changing a carrier signal so it can carry information.</p></article>
+            </div>
+        </section>
+
+        <section id="contact" class="section reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Contact section</p>
+                <h2>Student Details</h2>
+                <p>Quick access to the assignment owner, project repository, and submitted PDF.</p>
+            </div>
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <span>Student</span>
+                    <h3>Clinton Oti-Boateng</h3>
+                    <p>PUIT/25120003</p>
+                </article>
+                <article class="contact-card">
+                    <span>GitHub</span>
+                    <h3>Repository</h3>
+                    <a href="https://github.com/" target="_blank" rel="noopener">Open GitHub project</a>
+                </article>
+                <article class="contact-card">
+                    <span>Document</span>
+                    <h3>Assignment PDF</h3>
+                    <a href="PUIT25120003_DATA COMMUNICATIO.docx.pdf" target="_blank" rel="noopener">Open submitted PDF</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="certificate" class="section section-alt reveal">
+            <div class="certificate-panel">
+                <p class="eyebrow">Completion note</p>
+                <h2>Prepared by Clinton Oti-Boateng</h2>
+                <p>
+                    This Data Communication assignment summarizes key ideas in networking, security, communication models,
+                    telegraph signaling, satellite systems, and real-world digital communication.
+                </p>
+                <div class="certificate-meta">
+                    <span>PUIT/25120003</span>
+                    <span>Data Communication Assignment</span>
+                    <span class="certificate-year"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="section reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow">Resources section</p>
+                <h2>Project Links</h2>
+            </div>
+            <div class="download-strip">
+                <div>
+                    <h3>Download Assignment PDF</h3>
+                    <p>Keep a copy of the assignment document for review.</p>
+                </div>
+                <a href="PUIT25120003_DATA COMMUNICATIO.docx.pdf" class="resource-download" target="_blank" rel="noopener">Download PDF</a>
+            </div>
+            <div class="resource-grid">
+                <a class="resource-link" href="https://github.com/" target="_blank" rel="noopener">
+                    <span>GitHub Repository</span>
+                    <small>View the project source code on GitHub</small>
+                </a>
+                <a class="resource-link" href="PUIT25120003_DATA COMMUNICATIO.docx.pdf" target="_blank" rel="noopener">
+                    <span>Turnitin PDF</span>
+                    <small>Open the attached assignment document</small>
+                </a>
+                <a class="resource-link" href="images/videoplayback.mp4" target="_blank" rel="noopener">
+                    <span>Telegraph Video</span>
+                    <small>Open the video in a new browser tab</small>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-summary">
+            <div class="footer-branding">
+                <img src="images/oti.jpeg" alt="Clinton Oti-Boateng portrait" class="footer-photo">
+                <div>
+                    <h2>Clinton Oti-Boateng</h2>
+                    <p class="footer-role">PUIT/25120003</p>
+                </div>
+            </div>
+            <p>Data Communication Assignment</p>
+            <p>WhatsApp contact +233-55-073-8842</p>
+        </div>
+        <div>
+            <h3>Resources</h3>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub Repository</a>
+            <a href="PUIT25120003_DATA COMMUNICATIO.docx.pdf" target="_blank" rel="noopener">Assignment PDF</a>
+            <a href="images/videoplayback.mp4" target="_blank" rel="noopener">Telegraph Video</a>
+            <a href="#home">Student Contact</a>
+        </div>
+        <div>
+            <h3>Project</h3>
+            <p id="footer-clock">Loading date...</p>
+            <p>&copy; <span id="current-year"></span></p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
